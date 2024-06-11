@@ -1,8 +1,10 @@
+import { DynamicForm } from "./components/DynamicForm";
+
 function App() {
   return (
-    <div>
-      initial setups
-    </div>
+    <>
+      <DynamicForm />
+    </>
   );
 }
 
