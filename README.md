@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tailwind installation and setup
+
+Refer the documentation https://tailwindcss.com/docs/installation
+
+## react and react-dom Version setup
+
+As the oolib library support only version 17 of react use command 
+`npm install react@17.0.2 react-dom@17.0.2`
+
+## install all the dependencies
+
+Use the command 
+`npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
