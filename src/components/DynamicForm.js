@@ -18,7 +18,7 @@ export const DynamicForm = () => {
 
   return (
     <div className='flex justify-center md:p-3'>
-      <form className='sm:w-1/2 xl:w-1/3 bg-blue-200 px-5 pt-4 mt-4 rounded-sm'>
+      <form onSubmit={(e) => e.preventDefault()} className='sm:w-1/2 xl:w-1/3 bg-blue-200 px-5 pt-4 mt-4 rounded-sm'>
         {formConfigs.map((field, index) => {
           const Component = componentMap[field.comp];
           return (
